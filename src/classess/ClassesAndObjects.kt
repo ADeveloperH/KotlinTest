@@ -1,5 +1,9 @@
 package classess
 
+/**
+ * 类和继承
+ */
+
 fun main(args: Array<String>) {
     val person = Person("huangjian", 20)
     println(person.toString())
