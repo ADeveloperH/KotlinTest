@@ -12,6 +12,7 @@ fun main(args: Array<String>) {
     cc.bar()
     cc.foo()
 }
+public var a:Int = 2
 
 interface MyInterface {
     //在接口中声明的属性要么是抽象的，要么提供访问器的实现。
@@ -41,7 +42,7 @@ class Child : MyInterface {
  * 覆盖冲突
  *
  */
-//定义的接口名不能和其他的接口或类重名。默认都是open的(classess.A)
+//定义的接口名不能和其他的接口或类重名(相同包下)。默认都是open的(classess.A)
 interface AA {
     fun foo()
     fun bar() {

@@ -36,10 +36,8 @@ class DontCreateMe private constructor()
 //继承：默认情况下，在 Kotlin 中所有的类都是 final。
 // 类上的 open 标注与 Java 中 final 相反，它允许其他类从这个类继承
 open class Base(p: Int)
-
 //类有一个主构造函数，其基类型可以（并且必须） 用（基类型的）主构造函数参数就地初始化。
 class Derived(p: Int) : Base(p)
-
 open class View {
     constructor(c1: Int)
     constructor(c1: Int, c2: Int)

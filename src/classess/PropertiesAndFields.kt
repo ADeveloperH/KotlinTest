@@ -48,7 +48,6 @@ class Address {
             tempNickName2 = value + "^_^"
         }
 }
-
 fun copyAddress(city: String = "CH"): Address {
     // Kotlin 中没有“new”关键字
     val address = Address()
